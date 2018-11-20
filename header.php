@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <div class="all">
@@ -25,3 +26,32 @@
 		<a href="#">MY BAG</a>
 		</div>
 	</div>
+=======
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="all">
+	<div class="header1">
+		<div>
+		<a href="index.php">GIRLEE</a>
+		<img src="pict/ig.png">
+		<img src="pict/fb.png">
+		<img src="pict/line.png">
+		</div>
+			Customer Service: 0812 6060 0000
+	</div>
+	<div class="garis"></div>
+
+	<div class="header2">
+		<img src="pict/logo.png">
+
+		<div class="search">
+				<input type="text" name="cari" placeholder="search">
+				<button type="submit" name="submit">Search</button>
+		
+		</div>
+		<div>
+		<a href="login.php">LOGIN/REGISTER</a>
+		<a href="#">MY BAG</a>
+		</div>
+	</div>
+>>>>>>> f7f79e28f164113f22828d608a0b7732106dae48
