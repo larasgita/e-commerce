@@ -1,0 +1,357 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(fonts/Mada-Regular.ttf);
+}
+@font-face{
+	font-family: Oswald;
+	src: url(fonts/Oswald-Regular.ttf);
+}
+
+.header1{
+	font-family: Oswald;
+	display: flex;
+	justify-content: space-between;
+	height: 25px;
+	padding-top: 5px;
+	align-items: center;
+	margin: 0px 150px;
+}
+
+.header1 img{
+	padding-left: 10px;
+	margin: 0px 0px;
+	height: 20px;
+	width:auto;
+}
+
+.header1 a{
+	padding-right: 10px;
+	color: black;
+	text-decoration: none;
+	margin: 0;
+
+}
+
+.garis{
+	border-bottom: 1px solid black;
+}
+
+
+.header2{
+	margin: 0px 150px;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	padding: 15px;
+	align-items: center;
+}
+
+.header2 a{
+	font-family: Oswald;
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+}
+
+.header2 img{
+	margin: 20px 10px;
+	height: 40px;
+	width: auto;
+	
+}
+
+
+.search{
+	background-color: #e0f5f9;
+}
+
+.search input,button{
+	border: none;
+	padding: 10px;
+	font-size: 12pt;
+
+}
+.search input{
+	width: 200px;
+	background-color: #e0f5f9;
+}
+.search button{
+	background-color: #6fbdce;
+	color: #fff;
+	cursor: pointer;
+}
+.search button:hover{
+	background-color: #fc7360;
+}
+
+
+.footerr{
+background-color: pink;
+}
+
+.footer{
+	padding: 0px;
+	display: flex;
+	margin: 0px 150px;
+	
+}
+
+.footer input,button{
+	size: 30px;
+}
+
+.footer button{
+	padding: 2px;
+}
+.footer div{
+	margin: 20px 30px;
+}
+
+.all a{
+	text-decoration: none;
+	color: black;	
+	font-family: Roboto;
+}
+
+.end{
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+.opsi{
+	font-family: Roboto;
+	margin: 0px 140px;
+
+
+}
+.opsi a{
+	padding: 10px;
+	margin-left: 14px;
+	color: black;
+	text-decoration: none;
+
+}
+
+
+ 
+	.opsi ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+ 
+	.opsi > ul > li {
+		float: left;
+	}
+ 
+	
+	.opsi li a {
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+ 
+ 
+	li.dropdown {
+		display: inline-block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff !important;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+ 
+	.isi-dropdown a {
+		color: #3c3c3c !important;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: #f3f3f3 !important;
+	}
+
+
+
+
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+
+
+@keyframes slider{
+	0% {
+		left: 0;
+	}
+
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+
+.slider{
+	
+	height: 390px;
+	overflow: hidden;
+	background-color:black;
+
+}
+
+.slider figure img{
+	max-width: 20%;
+	height: auto;
+	float: left;
+
+}
+
+.slider figure{
+	width: 500%;
+	left: 0;
+	margin: 0;
+	position: relative;
+	animation: 15s slider infinite;
+
+}
+
+
+.plus{
+
+	font-family: Roboto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+	height: 50px;
+	margin: 0px 150px;
+	margin-bottom: 0px;
+}
+
+.plus img{
+	height: 47px;
+	margin:0;
+	padding: 0;
+}
+
+
+.gariss{
+	border-bottom: 1px solid grey;
+	margin: 10px 150px;
+}
+
+
+.bestsell{
+	font-family: Roboto;
+	margin:10px 150px;
+	padding: 15px;
+	display: flex;
+}
+
+
+.bestsell div{
+	margin: 0px 40px;
+	font-size: 15pt;
+	width: 150px;
+
+}
+
+.bestsell p{
+	font-weight: bold;
+}
+
+.bestsell img{
+	height:auto;
+	width:  100px;
+
+}
+
+.brand {
+	font-family: Roboto;
+	margin:10px 150px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand div{
+	width: 200%;
+	height: auto;
+	border: 2px black ;
+	display: flex;
+	
+}
+
+.brand div{
+	margin: 0px 40px;
+	font-size: 15pt;
+
+}
+
+.brand p{
+	font-weight: bold;
+}
+
+.brand img{
+	height: 100px;
+	width:  auto;
+
+}
+
+.detail{
+	display: flex;
+}
+
+.detail div{
+	font-size: 15pt;
+	font-family: roboto;
+}
+
+.detail div p{
+	font-weight: bold;
+}
+
+.detail div a{
+	font-weight: bold;
+	color: blue;
+	text-shadow: black;
+}
